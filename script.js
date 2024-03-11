@@ -31,7 +31,7 @@ function Allvoices() {
 
 
 // Wait for voices to be available
-window.speechSynthesis.onvoiceschanged = Allvoices;
+window.speechSynthesis.onvoiceschanged = Allvoices();
 
 
 
